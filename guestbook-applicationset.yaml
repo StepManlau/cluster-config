@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: https://github.com/<identifiant>/<votre-repo-gitops>.git
+        repoURL: https://github.com/stepmanlau/cluster-config.git
         revision: HEAD
         directories:
           - path: apps/*
